@@ -19,8 +19,9 @@ function Header({ onSearch, searchTerm, setSearchTerm, toggleSettings, toggleDra
         </button>
         <div style={styles.logo}>
           <img
-            src="https://www.youtube.com/s/desktop/7a97f1b1/img/favicon_32x32.png"
-            alt="YouTube Logo"
+  src="https://raw.githubusercontent.com/catchworld-uk/Project-1/main/desing.png"
+  alt="My Design"
+/>
             style={{ width: '30px', marginRight: '5px' }}
           />
           <span style={{ fontWeight: 'bold', fontSize: '1.5rem', color: 'white' }}>
