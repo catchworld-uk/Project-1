@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import './style.css';
+import './Style.css';
 
-const API_KEY = 'AIzaSyDZx0h7qwxlT9LsSs-wrwbTPYtdWMxblsQ';
+const API_KEY = 'AIzaSyAo6-di2ZFtlpILvqnThLEX-hKKTdI069U';
 const BASE_URL = 'https://www.googleapis.com/youtube/v3';
 const NAV_ITEMS = [
   { label: 'Home', action: 'home', icon: '🏠' },
@@ -18,9 +18,9 @@ function Header({ onSearch, searchTerm, setSearchTerm, toggleSettings, toggleDra
           ☰
         </button>
         <div style={styles.logo}>
-           <img src="https://raw.githubusercontent.com/catchworld-uk/Project-1/main/desing.png"
-  alt="My Desing"
-/>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png"
+            alt="YouTube Logo"
             style={{ width: '30px', marginRight: '5px' }}
           />
           <span style={{ fontWeight: 'bold', fontSize: '1.5rem', color: 'white' }}>
