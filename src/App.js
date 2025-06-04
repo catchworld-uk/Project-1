@@ -1,6 +1,4 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-
-import React, { useState, useEffect, useRef, useCallback } from 'react';
 import './Style.css';
 
 const API_KEY = 'AIzaSyDZx0h7qwxlT9LsSs-wrwbTPYtdWMxblsQ';
