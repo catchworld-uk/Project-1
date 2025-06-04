@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import './Style.css';
+import './style.css';
 
 const API_KEY = 'AIzaSyAo6-di2ZFtlpILvqnThLEX-hKKTdI069U';
 const BASE_URL = 'https://www.googleapis.com/youtube/v3';
