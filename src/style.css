@@ -3,3 +3,214 @@ p {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button:hover {
+  background-color: #383838 !important;
+}
+
+.footerButton:hover,
+.drawerItem:hover {
+  background-color: #383838 !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #212121;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.shortsCarousel::-webkit-scrollbar {
+  height: 8px;
+}
+
+.shortsCarousel::-webkit-scrollbar-track {
+  background: #212121;
+}
+
+.shortsCarousel::-webkit-scrollbar-thumb {
+  background: #ff0000;
+  border-radius: 4px;
+}
+
+.shortsCarousel::-webkit-scrollbar-thumb:hover {
+  background: #cc0000;
+}
+
+/* Settings Toggle Switch */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #ff0000;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    padding: 10px !important;
+    height: auto !important;
+    justify-content: space-between;
+  }
+  .headerLeft {
+    flex: 1;
+  }
+  .searchForm {
+    max-width: 100% !important;
+    margin: 10px 0 !important;
+  }
+  .headerRight {
+    flex: 1;
+    justify-content: flex-end;
+  }
+  .iconButton {
+    font-size: 1rem !important;
+    padding: 3px !important;
+  }
+  .shortItem {
+    width: 120px !important;
+  }
+  .shortThumbnail {
+    max-width: 120px !important;
+  }
+  .shortTitle {
+    font-size: 0.8rem !important;
+  }
+  .shortLabel {
+    font-size: 0.6rem !important;
+    padding: 1px 3px !important;
+  }
+  .videoDetails iframe {
+    height: 200px !important;
+  }
+  .videoTitle {
+    font-size: 1rem !important;
+  }
+  .videoDescription {
+    font-size: 0.8rem !important;
+  }
+  .videoActions button {
+    padding: 6px 10px !important;
+    font-size: 0.8rem !important;
+  }
+  .commentInput {
+    font-size: 0.8rem !important;
+    padding: 6px 10px !important;
+  }
+  .commentSubmitButton {
+    padding: 6px 10px !important;
+    font-size: 0.8rem !important;
+  }
+  .videoListSection {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)) !important;
+    gap: 15px !important;
+  }
+  .videoItem {
+    padding: 5px !important;
+  }
+  .thumbnail {
+    max-width: 100% !important;
+  }
+  .videoTitleSmall {
+    font-size: 0.9rem !important;
+  }
+  .channelName,
+  .views {
+    font-size: 0.7rem !important;
+  }
+  .footer {
+    padding: 5px 0 !important;
+  }
+  .footerButton {
+    padding: 3px 5px !important;
+  }
+  .footerIcon {
+    font-size: 1.2rem !important;
+  }
+  .footerLabel {
+    font-size: 0.6rem !important;
+  }
+  .drawer {
+    width: 200px !important;
+    padding: 15px !important;
+  }
+  .drawerItem {
+    font-size: 0.9rem !important;
+    padding: 8px !important;
+  }
+  .settingsPanel {
+    width: 250px !important;
+    padding: 15px !important;
+  }
+  .settingsPanel h3 {
+    font-size: 1rem !important;
+  }
+  .settingsItem label {
+    font-size: 0.9rem !important;
+  }
+  .okButton {
+    padding: 6px !important;
+    font-size: 0.9rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo span {
+    font-size: 1.2rem !important;
+  }
+  .byMrTechy {
+    font-size: 0.6rem !important;
+  }
+}
