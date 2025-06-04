@@ -18,9 +18,8 @@ function Header({ onSearch, searchTerm, setSearchTerm, toggleSettings, toggleDra
           ☰
         </button>
         <div style={styles.logo}>
-          <img
-  src="https://raw.githubusercontent.com/catchworld-uk/Project-1/main/desing.png"
-  alt="My Design"
+           <img src="https://raw.githubusercontent.com/catchworld-uk/Project-1/main/desing.png"
+  alt="My Desing"
 />
             style={{ width: '30px', marginRight: '5px' }}
           />
